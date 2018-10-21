@@ -129,7 +129,7 @@ if ((sensoruntstat==LOW) && (torhandstat==HIGH))
 if ((now.hour() >=7) && (now.hour() <20) && (Luxwert >=300) && (sensorobenstat==HIGH) && (torhandstat==HIGH))
 {torstatus=4;}
 
-if ( (Luxwert <=200) && (sensoruntstat==HIGH) && (torhandstat==HIGH))
+if ( (Luxwert <=150) && (sensoruntstat==HIGH) && (torhandstat==HIGH))
 {torstatus=5;}
 
 //Handprogramm
